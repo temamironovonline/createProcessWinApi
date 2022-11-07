@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <Windows.h>
 #include <stdio.h>
+#include <Math.h>
 
 void decisionCompleteEquation(float*, char*, int);
 void decisionIncompleteEquation(float*, char*, int);
@@ -9,15 +10,13 @@ void writeResultToFile(char*, int);
 int main(int argc, char** argv)
 {
     float* argumentsForCalculation = calloc(3, sizeof(float));
-	/*argumentsForCalculation[0] = atof(argv[1]);
-	argumentsForCalculation[1] = atof(argv[2]);
-	argumentsForCalculation[2] = atof(argv[3]);*/
-	int i;
-	for (i = 0; i < argc; i++) {
-		printf("%s\n", argv[i]);
-	}
-	printf("WASSSSUP");
-	/*char* result = "";
+
+
+	argumentsForCalculation[0] = atof(argv[0, 0]);
+	argumentsForCalculation[1] = atof(argv[0, 1]);
+	argumentsForCalculation[2] = atof(argv[0, 2]);
+
+	char* result = "";
 	int resultCountSymbols = 0;
 
 	if (argumentsForCalculation[0] == 0)
@@ -28,8 +27,9 @@ int main(int argc, char** argv)
 		writeResultToFile(result, resultCountSymbols);
 	}
 	else if (argumentsForCalculation[1] != 0 && argumentsForCalculation[2] != 0) decisionCompleteEquation(argumentsForCalculation, result, resultCountSymbols);
-	else decisionIncompleteEquation(argumentsForCalculation, result, resultCountSymbols);*/
+	else decisionIncompleteEquation(argumentsForCalculation, result, resultCountSymbols);
 }
+
 
 void decisionCompleteEquation(float* forCoefficients, char* forAnswer, int forAnswerCountSymbols) //¬ычислени€ при полном квадратном уравнении
 {
