@@ -211,7 +211,15 @@
 
 ___
 
+Введем следующие аргументы `a = 1`, `b = 4`, `c = 2` и посмотрим результат:
 
+![](https://github.com/temamironovonline/createProcessWinApi/blob/master/resultScreen.jpg)
+
+Связаться можно:
++ ВК: https://vk.com/id_sergeichev
+
+По другим вопросам:
++ https://ya.ru/
 
 
 
